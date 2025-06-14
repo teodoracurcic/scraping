@@ -15,6 +15,11 @@ This assignment includes four scraping tasks using Jupyter Notebook.
 - **Libraries**: `requests`, `BeautifulSoup`, `pandas`
 - **Collected**: Title, subhead, article URL, byline, article type, image URL, and whether it’s premium.
 
+## Automatic Updates
+
+This dataset is automatically updated every day at **08:00 AM UTC** using [GitHub Actions](https://github.com/features/actions).  
+The workflow executes the Jupyter Notebook `homework-7-part2.ipynb`, fetches fresh data, and commits any changes.
+
 ### `homework-7-part3.ipynb`
 - **Task**: Scrape **authorized third-party driver license locations** from the Arizona Department of Transportation website.
 - **Libraries**: `requests`, `BeautifulSoup`, `pandas`
